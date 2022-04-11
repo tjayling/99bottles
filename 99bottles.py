@@ -7,7 +7,7 @@ def numberOfBottles(bottles):
 def singular(bottles):
     return "s" if bottles != 1 else ""
 
-for i in range (200):
+for i in range (150):
     print(numberOfBottles(bottles) + " bottle" + singular(bottles) + " of beer on the wall, " + numberOfBottles(bottles) + " bottle" + singular(bottles) + " of beer.")
     if bottles > 0:
         bottles -= 1
